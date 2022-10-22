@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left, #c7eb7f, #8FA6AC, #ebe0d0);
+}
+main{
+    background-color: white;
+    border-radius: 10px; /* cantos arredondados */
+    box-shadow: 5px 5px 15px; /* sombra nos cantos */
+    width: 600px; /* largura da pagina */
+    padding: 50px;
+    margin: auto;
+
+}
+
+h1{ 
+    text-align: center;   
+    width: 250px;    
+    border-radius: 10px;
+    padding: 10px;    
+}
+#principal{
+    text-align: center;
+    background-color: olive;
+}
+.h2{
+    background-color: olive;
+    width: 200px;
+    text-align: center;
+
+}
+.falarcomigo{
+    background-color: olive;
+    width: 350px;
+}
+
+div>p{
+    display: none;
+}
+
+p{
+    text-indent: 39px;
+    text-align: justify;    
+}
